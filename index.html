@@ -2,12 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./public/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Enjoy Penang - Travel Portal</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- 以下内容只有在 JavaScript 未能加载时才会显示 -->
+      <noscript>
+        <div style="padding: 20px; text-align: center;">
+          <h1>Enjoy Penang</h1>
+          <p>Please enable JavaScript to view this website.</p>
+        </div>
+      </noscript>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
