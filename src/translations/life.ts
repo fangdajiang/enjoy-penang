@@ -231,5 +231,9 @@ export const lifeTranslations = {
   "keyInformation": {
     en: "Key Information",
     zh: "关键信息"
+  },
+  "penangLifestyleAlt": {
+    en: "Penang Lifestyle",
+    zh: "槟城生活方式"
   }
 };

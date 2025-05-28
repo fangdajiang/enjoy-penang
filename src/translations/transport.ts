@@ -372,4 +372,8 @@ export const transportTranslations = {
     en: "More Information",
     zh: "更多信息"
   },
+  "penangTransportationAlt": {
+    en: "Penang Transportation",
+    zh: "槟城交通"
+  }
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Stethoscope, Landmark, Wifi, CreditCard, ShoppingBag, Utensils } from 'lucide-react';
+import { Stethoscope, Landmark, Wifi } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const LifeServices: React.FC = () => {
@@ -65,7 +65,7 @@ const LifeServices: React.FC = () => {
           <div>
             <img 
               src="https://images.pexels.com/photos/4552353/pexels-photo-4552353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-              alt="Penang Lifestyle" 
+              alt={t('penangLifestyleAlt')} 
               className="rounded-lg shadow-lg"
             />
           </div>

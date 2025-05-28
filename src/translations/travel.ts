@@ -195,5 +195,9 @@ export const travelTranslations = {
   "tropicalSpiceGardenDescription": {
     en: "Wander through lush gardens showcasing over 500 varieties of exotic flora and spices native to the region.",
     zh: "漫步在郁郁葱葱的花园中，展示超过500种当地特有的异国植物和香料。"
+  },
+  "penangLandscapeAlt": {
+    en: "Penang Landscape",
+    zh: "槟城风光"
   }
 };

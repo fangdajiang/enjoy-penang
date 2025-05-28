@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, MapPin, Globe } from 'lucide-react';
+import { Menu, X, MapPin } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSwitcher from './LanguageSwitcher';
 
@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <MapPin className="h-8 w-8 mr-2" />
-              <span className="font-bold text-xl">Penang Gateway</span>
+              <span className="font-bold text-xl">{t('penangGatewayBrand')}</span>
             </Link>
           </div>
           
@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
             <Link to="/transport" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">{t('transportServices')}</Link>
             <Link to="/life-services" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">{t('lifeServices')}</Link>
             <Link to="/travel-guide" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">{t('travelGuide')}</Link>
-            <Link to="/faq" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">FAQ</Link>
+            <Link to="/faq" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">{t('faq')}</Link>
           </div>
           
           <div className="flex items-center md:hidden">
@@ -58,7 +58,7 @@ const Navbar: React.FC = () => {
             <Link to="/transport" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" onClick={toggleMenu}>{t('transportServices')}</Link>
             <Link to="/life-services" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" onClick={toggleMenu}>{t('lifeServices')}</Link>
             <Link to="/travel-guide" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" onClick={toggleMenu}>{t('travelGuide')}</Link>
-            <Link to="/faq" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" onClick={toggleMenu}>FAQ</Link>
+            <Link to="/faq" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" onClick={toggleMenu}>{t('faq')}</Link>
             <div className="mt-4 px-3">
               <LanguageSwitcher />
             </div>

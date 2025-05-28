@@ -10,6 +10,8 @@ import { uiTranslations } from './ui';
 import { lifeTranslations } from './life';
 import { faqTranslations } from './faq';
 import { faqContentTranslations } from './faq-content';
+import { footerTranslations } from './footer';
+import { testimonialTranslations } from './testimonials';
 
 // 合并所有翻译
 export const translations = {
@@ -25,6 +27,8 @@ export const translations = {
   ...lifeTranslations,
   ...faqTranslations,
   ...faqContentTranslations,
+  ...footerTranslations,
+  ...testimonialTranslations,
 };
 
 export default translations;

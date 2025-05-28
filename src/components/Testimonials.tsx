@@ -5,38 +5,34 @@ import 'slick-carousel/slick/slick-theme.css';
 import { useLanguage } from '../contexts/LanguageContext';
 
 interface TestimonialProps {
-  quote: string;
+  quoteKey: string;
   name: string;
-  role: string;
   image: string;
   roleKey: string;
 }
 
 const testimonials: TestimonialProps[] = [
   {
-    quote: "Penang Gateway made my transition to student life in Penang incredibly smooth. Their visa guidance and accommodation services saved me so much time and stress!",
+    quoteKey: "testimonial1Quote",
     name: "Wei Chen",
-    role: "International Student",
     image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    roleKey: "internationalStudent"
+    roleKey: "internationalStudentRole"
   },
   {
-    quote: "As a first-time visitor to Penang, I was overwhelmed with planning. The travel guides and local tips from Penang Gateway made my vacation perfect!",
+    quoteKey: "testimonial2Quote",
     name: "Sarah Johnson",
-    role: "Tourist from Australia",
     image: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    roleKey: "touristFromAustralia"
+    roleKey: "touristFromAustraliaRole"
   },
   {
-    quote: "The immigration information was spot on and up-to-date. I had no issues with my entry process thanks to the detailed guidance provided.",
+    quoteKey: "testimonial3Quote",
     name: "Raj Patel",
-    role: "Business Traveler",
     image: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    roleKey: "businessTraveler"
+    roleKey: "businessTravelerRole"
   }
 ];
 
-const Testimonial: React.FC<TestimonialProps> = ({ quote, name, role, image, roleKey }) => {
+const Testimonial: React.FC<TestimonialProps> = ({ quoteKey, name, image, roleKey }) => {
   const { t } = useLanguage();
   
   return (
@@ -48,7 +44,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ quote, name, role, image, rol
             alt={name} 
             className="w-20 h-20 rounded-full object-cover mb-4"
           />
-          <p className="text-gray-600 italic mb-4">"{quote}"</p>
+          <p className="text-gray-600 italic mb-4">"{t(quoteKey)}"</p>
           <h4 className="font-semibold">{name}</h4>
           <p className="text-sm text-gray-500">{t(roleKey)}</p>
         </div>

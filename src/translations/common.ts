@@ -84,4 +84,17 @@ export const commonTranslations = {
     en: "Copyright 2024 Penang Gateway. All rights reserved.",
     zh: "版权所有 2024 槟城门户。保留所有权利。"
   },
+  "switchToChinese": {
+    en: "中文",
+    zh: "中文"
+  },
+  "switchToEnglish": {
+    en: "English",
+    zh: "English"
+  },
+  // Add new keys below
+  "penangGatewayBrand": {
+    en: "Penang Gateway",
+    zh: "槟城门户"
+  }
 };

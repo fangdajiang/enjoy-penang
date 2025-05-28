@@ -65,7 +65,7 @@ const TransportServices: React.FC = () => {
           <div>
             <img 
               src="https://images.pexels.com/photos/3566358/pexels-photo-3566358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-              alt="Penang Transportation" 
+              alt={t('penangTransportationAlt')} 
               className="rounded-lg shadow-lg"
             />
           </div>

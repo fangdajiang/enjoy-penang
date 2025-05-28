@@ -161,7 +161,7 @@ const Accommodation: React.FC = () => {
           <div>
             <img 
               src="https://images.pexels.com/photos/3774041/pexels-photo-3774041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-              alt="Penang Accommodation" 
+              alt={t('penangAccommodationAlt')} 
               className="rounded-lg shadow-lg h-full object-cover"
             />
           </div>
@@ -182,7 +182,7 @@ const Accommodation: React.FC = () => {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img 
                 src="https://images.pexels.com/photos/5007456/pexels-photo-5007456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Georgetown" 
+                alt={t('georgetownAlt')} 
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
@@ -200,7 +200,7 @@ const Accommodation: React.FC = () => {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img 
                 src="https://images.pexels.com/photos/13582942/pexels-photo-13582942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Batu Ferringhi" 
+                alt={t('batuFerringhiAlt')} 
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
@@ -218,7 +218,7 @@ const Accommodation: React.FC = () => {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img 
                 src="https://images.pexels.com/photos/6492397/pexels-photo-6492397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Gurney" 
+                alt={t('gurneyAlt')} 
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
@@ -236,7 +236,7 @@ const Accommodation: React.FC = () => {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img 
                 src="https://images.pexels.com/photos/1907227/pexels-photo-1907227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Gelugor" 
+                alt={t('gelugorAlt')} 
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">

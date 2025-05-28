@@ -83,7 +83,7 @@ const TravelGuide: React.FC = () => {
           <img 
             className="w-full h-full object-cover opacity-40"
             src="https://images.pexels.com/photos/5240516/pexels-photo-5240516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-            alt="Penang Landscape" 
+            alt={t('penangLandscapeAlt')} 
           />
         </div>
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">

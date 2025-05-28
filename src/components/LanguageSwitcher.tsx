@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const LanguageSwitcher: React.FC = () => {
-  const { language, setLanguage } = useLanguage();
+  const { language, setLanguage, t } = useLanguage();
 
   const toggleLanguage = () => {
     setLanguage(language === 'en' ? 'zh' : 'en');
@@ -13,7 +13,7 @@ const LanguageSwitcher: React.FC = () => {
       onClick={toggleLanguage}
       className="flex items-center bg-white/10 hover:bg-white/20 text-white px-3 py-1.5 rounded-full text-sm font-medium transition-colors"
     >
-      <span className="mr-1">{language === 'en' ? '中文' : 'English'}</span>
+      <span className="mr-1">{language === 'en' ? t('switchToChinese') : t('switchToEnglish')}</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"

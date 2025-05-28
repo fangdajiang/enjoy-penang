@@ -352,4 +352,16 @@ export const accommodationTranslations = {
     en: "Luxury",
     zh: "豪华"
   },
+  "tanjungBungahAlt": {
+    en: "Tanjung Bungah Area",
+    zh: "丹绒武雅地区"
+  },
+  "georgetownAlt": {
+    en: "Georgetown Area",
+    zh: "乔治市地区"
+  },
+  "gelugorAlt": {
+    en: "Gelugor Area",
+    zh: "牛汝莪地区"
+  }
 };
