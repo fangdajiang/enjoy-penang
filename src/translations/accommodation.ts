@@ -68,6 +68,38 @@ export const accommodationTranslations = {
     en: "Residential condominiums and apartments for long-term rentals with modern amenities.",
     zh: "带有现代化设施的长期租赁住宅公寓。"
   },
+  "dailyHousekeeping": {
+    en: "Daily housekeeping",
+    zh: "每日客房清洁"
+  },
+  "restaurantAndRoomService": {
+    en: "Restaurant and room service",
+    zh: "餐厅和客房送餐服务"
+  },
+  "swimmingPoolsAndFitnessCenters": {
+    en: "Swimming pools and fitness centers",
+    zh: "游泳池和健身中心"
+  },
+  "twentyFourHourReception": {
+    en: "24-hour reception",
+    zh: "24小时接待"
+  },
+  "fullyEquippedKitchen": {
+    en: "Fully equipped kitchen",
+    zh: "设备齐全的厨房"
+  },
+  "livingAndDiningAreas": {
+    en: "Living and dining areas",
+    zh: "客厅和用餐区"
+  },
+  "weeklyHousekeeping": {
+    en: "Weekly housekeeping",
+    zh: "每周客房清洁"
+  },
+  "securityServicesFeature": {
+    en: "Security services",
+    zh: "安保服务"
+  },
   "fullyFurnishedOptions": {
     en: "Fully furnished options available",
     zh: "提供全套家具选择"

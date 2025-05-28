@@ -31,8 +31,8 @@ const accommodationOptions: AccommodationOptionProps[] = [
     featuresKeys: [
       "dailyHousekeeping",
       "restaurantAndRoomService",
-      "swimmingPools",
-      "hourReception"
+      "swimmingPoolsAndFitnessCenters",
+      "twentyFourHourReception"
     ],
     priceRangeKey: "hotelsPriceRange"
   },
@@ -53,7 +53,7 @@ const accommodationOptions: AccommodationOptionProps[] = [
       "fullyEquippedKitchen",
       "livingAndDiningAreas",
       "weeklyHousekeeping",
-      "securityServices"
+      "securityServicesFeature"
     ],
     priceRangeKey: "servicedApartmentsPriceRange"
   },

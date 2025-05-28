@@ -104,6 +104,26 @@ export const transportTranslations = {
     en: "Frequency: every 15-30 minutes on main routes",
     zh: "频率：主要路线每15-30分钟一班"
   },
+  "taxis": {
+    en: "Taxis",
+    zh: "出租车"
+  },
+  "taxisDesc": {
+    en: "Metered taxis are available, especially in tourist areas and at taxi stands.",
+    zh: "计价出租车随处可见，尤其是在旅游区和出租车站。"
+  },
+  "meteredFares": {
+    en: "Metered fares; confirm with driver before starting",
+    zh: "计价收费；开始前与司机确认"
+  },
+  "availableAtStands": {
+    en: "Available at taxi stands and can be hailed",
+    zh: "可在出租车站找到，也可招手即停"
+  },
+  "commonInTouristAreas": {
+    en: "Common in tourist areas and city centers",
+    zh: "在旅游区和市中心很常见"
+  },
   "rideHailing": {
     en: "Ride-Hailing Services",
     zh: "网约车服务"
@@ -115,6 +135,66 @@ export const transportTranslations = {
   "keyInformation": {
     en: "Key Information",
     zh: "重要信息"
+  },
+  "carRentalsTitle": {
+    en: "Car Rentals",
+    zh: "汽车租赁"
+  },
+  "carRentalsDesc": {
+    en: "Rent a car for flexibility in exploring Penang at your own pace.",
+    zh: "租一辆车，按自己的节奏灵活探索槟城。"
+  },
+  "majorRentalCompanies": {
+    en: "Major international and local rental companies available",
+    zh: "提供主要的国际和本地租赁公司"
+  },
+  "dailyWeeklyRates": {
+    en: "Daily, weekly, and monthly rates available",
+    zh: "提供日租、周租和月租价格"
+  },
+  "idpMayBeRequired": {
+    en: "International Driving Permit may be required",
+    zh: "可能需要国际驾驶许可证"
+  },
+  "motorcycleRentals": {
+    en: "Motorcycle Rentals",
+    zh: "摩托车租赁"
+  },
+  "motorcycleRentalsDesc": {
+    en: "A popular and convenient way to navigate through traffic and explore smaller roads.",
+    zh: "一种流行且便捷的方式，可在交通中穿梭并探索较小的道路。"
+  },
+  "popularForExploring": {
+    en: "Popular for exploring towns and scenic routes",
+    zh: "热门选择，适合探索城镇和风景路线"
+  },
+  "licenseRequired": {
+    en: "Valid motorcycle license required",
+    zh: "需要有效的摩托车驾照"
+  },
+  "helmetMandatory": {
+    en: "Helmet usage is mandatory",
+    zh: "必须佩戴头盔"
+  },
+  "cycling": {
+    en: "Cycling",
+    zh: "自行车"
+  },
+  "cyclingDesc": {
+    en: "Explore Georgetown's heritage sites or coastal paths on a bicycle.",
+    zh: "骑自行车探索乔治城的文化遗产地或沿海小径。"
+  },
+  "dedicatedBikeLanes": {
+    en: "Dedicated bike lanes in some areas",
+    zh: "部分地区设有专用自行车道"
+  },
+  "bikeSharingServices": {
+    en: "Bike-sharing services available in Georgetown",
+    zh: "乔治城提供自行车共享服务"
+  },
+  "idealForShortDistances": {
+    en: "Ideal for short distances and leisurely exploration",
+    zh: "适合短途和悠闲探索"
   },
   "mostPopularOption": {
     en: "Most popular option",
@@ -287,6 +367,22 @@ export const transportTranslations = {
   "navigationTips": {
     en: "Navigation Tips",
     zh: "导航提示"
+  },
+  "trafficConditions": {
+    en: "Traffic Conditions",
+    zh: "交通状况"
+  },
+  "trafficConditionsDesc": {
+    en: "Be aware of peak hour traffic, especially on the Penang Bridge and in Georgetown.",
+    zh: "请注意高峰时段的交通状况，尤其是在槟威大桥和乔治城市区。"
+  },
+  "publicTransportEtiquette": {
+    en: "Public Transport Etiquette",
+    zh: "公共交通礼仪"
+  },
+  "publicTransportEtiquetteDesc": {
+    en: "Offer seats to elderly and pregnant women. Keep noise levels down.",
+    zh: "为老人和孕妇让座。保持低音量。"
   },
   "useNavigationApps": {
     en: "Use navigation apps (Google Maps, Waze)",
