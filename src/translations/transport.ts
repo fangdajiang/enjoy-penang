@@ -153,8 +153,20 @@ export const transportTranslations = {
     zh: "提供日租、周租和月租价格"
   },
   "idpMayBeRequired": {
-    en: "International Driving Permit may be required",
-    zh: "可能需要国际驾驶许可证"
+    en: "International Driving Permit (IDP) may be required for some nationalities",
+    zh: "某些国籍可能需要国际驾驶许可证（IDP）"
+  },
+  "typicalPrices": {
+    en: "Typical Prices: RM100-RM300 per day for standard cars",
+    zh: "典型价格：标准车型每天 RM100-RM300"
+  },
+  "insuranceDetails": {
+    en: "Insurance: Basic insurance usually included, comprehensive available",
+    zh: "保险：通常包含基本保险，可提供综合保险"
+  },
+  "bookingProcess": {
+    en: "Booking Process: Online or direct at rental counters",
+    zh: "预订流程：在线或直接在租赁柜台预订"
   },
   "motorcycleRentals": {
     en: "Motorcycle Rentals",
@@ -168,9 +180,9 @@ export const transportTranslations = {
     en: "Popular for exploring towns and scenic routes",
     zh: "热门选择，适合探索城镇和风景路线"
   },
-  "licenseRequired": {
-    en: "Valid motorcycle license required",
-    zh: "需要有效的摩托车驾照"
+  "licenseRequirements": {
+    en: "Valid driving license required (often min. 1 year holding)",
+    zh: "需要有效驾驶执照（通常至少持有1年）"
   },
   "helmetMandatory": {
     en: "Helmet usage is mandatory",

@@ -94,23 +94,23 @@ export const accommodationTranslations = {
   },
   "weeklyHousekeeping": {
     en: "Weekly housekeeping",
-    zh: "每周客房清洁"
+    zh: "每周客房清洁服务"
   },
   "securityServicesFeature": {
-    en: "Security services",
-    zh: "安保服务"
+    en: "Security services (e.g., 24/7 security, CCTV)",
+    zh: "安保服务（例如，24/7安保，闭路电视监控）"
   },
   "fullyFurnishedOptions": {
     en: "Fully furnished options available",
-    zh: "提供全套家具选择"
+    zh: "提供全套家具选项"
   },
   "facilityAccess": {
     en: "Swimming pool and gym access",
-    zh: "游泳池和健身房使用权"
+    zh: "可使用游泳池和健身房"
   },
   "securityAndParking": {
     en: "Security and parking",
-    zh: "安保和停车服务"
+    zh: "安保和停车位"
   },
   "minimumLeaseTerms": {
     en: "Minimum 12-month lease terms typical",
