@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { Menu, X, MapPin } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -24,13 +24,13 @@ const Navbar: React.FC = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-4">
-            <Link to="/" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">{t('home')}</Link>
-            <Link to="/student-services" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">{t('studentServices')}</Link>
-            <Link to="/accommodation" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">{t('accommodation')}</Link>
-            <Link to="/transport" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">{t('transportServices')}</Link>
-            <Link to="/life-services" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">{t('lifeServices')}</Link>
-            <Link to="/travel-guide" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">{t('travelGuide')}</Link>
-            <Link to="/faq" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">{t('faq')}</Link>
+            <NavLink to="/" className={({ isActive }) => `px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors ${isActive ? 'bg-blue-700' : ''}`}>{t('home')}</NavLink>
+            <NavLink to="/student-services" className={({ isActive }) => `px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors ${isActive ? 'bg-blue-700' : ''}`}>{t('studentServices')}</NavLink>
+            <NavLink to="/accommodation" className={({ isActive }) => `px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors ${isActive ? 'bg-blue-700' : ''}`}>{t('accommodation')}</NavLink>
+            <NavLink to="/transport" className={({ isActive }) => `px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors ${isActive ? 'bg-blue-700' : ''}`}>{t('transportServices')}</NavLink>
+            <NavLink to="/life-services" className={({ isActive }) => `px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors ${isActive ? 'bg-blue-700' : ''}`}>{t('lifeServices')}</NavLink>
+            <NavLink to="/travel-guide" className={({ isActive }) => `px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors ${isActive ? 'bg-blue-700' : ''}`}>{t('travelGuide')}</NavLink>
+            <NavLink to="/faq" className={({ isActive }) => `px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors ${isActive ? 'bg-blue-700' : ''}`}>{t('faq')}</NavLink>
           </div>
           
           <div className="flex items-center md:hidden">
@@ -52,13 +52,13 @@ const Navbar: React.FC = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-blue-600">
-            <Link to="/" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" onClick={toggleMenu}>{t('home')}</Link>
-            <Link to="/student-services" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" onClick={toggleMenu}>{t('studentServices')}</Link>
-            <Link to="/accommodation" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" onClick={toggleMenu}>{t('accommodation')}</Link>
-            <Link to="/transport" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" onClick={toggleMenu}>{t('transportServices')}</Link>
-            <Link to="/life-services" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" onClick={toggleMenu}>{t('lifeServices')}</Link>
-            <Link to="/travel-guide" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" onClick={toggleMenu}>{t('travelGuide')}</Link>
-            <Link to="/faq" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" onClick={toggleMenu}>{t('faq')}</Link>
+            <NavLink to="/" className={({ isActive }) => `block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 ${isActive ? 'bg-blue-700' : ''}`} onClick={toggleMenu}>{t('home')}</NavLink>
+            <NavLink to="/student-services" className={({ isActive }) => `block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 ${isActive ? 'bg-blue-700' : ''}`} onClick={toggleMenu}>{t('studentServices')}</NavLink>
+            <NavLink to="/accommodation" className={({ isActive }) => `block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 ${isActive ? 'bg-blue-700' : ''}`} onClick={toggleMenu}>{t('accommodation')}</NavLink>
+            <NavLink to="/transport" className={({ isActive }) => `block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 ${isActive ? 'bg-blue-700' : ''}`} onClick={toggleMenu}>{t('transportServices')}</NavLink>
+            <NavLink to="/life-services" className={({ isActive }) => `block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 ${isActive ? 'bg-blue-700' : ''}`} onClick={toggleMenu}>{t('lifeServices')}</NavLink>
+            <NavLink to="/travel-guide" className={({ isActive }) => `block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 ${isActive ? 'bg-blue-700' : ''}`} onClick={toggleMenu}>{t('travelGuide')}</NavLink>
+            <NavLink to="/faq" className={({ isActive }) => `block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 ${isActive ? 'bg-blue-700' : ''}`} onClick={toggleMenu}>{t('faq')}</NavLink>
             <div className="mt-4 px-3">
               <LanguageSwitcher />
             </div>
